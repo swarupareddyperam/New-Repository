@@ -1,0 +1,23 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Vowel
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int i=0;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a Alphabet");
+	char ch=sc.next().charAt(0);
+	if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+	System.out.println("Enterd a Alphabet is vowel");
+	else
+	System.out.println("Entered a Alphabet is constant");
+     
+	}
+}
