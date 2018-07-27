@@ -9,11 +9,11 @@ class Count
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-  int n=998766,count==0;
+  int n=998766,count=0;
   while(n!=0)
   {
   n=n/10;
-  count++;
+  ++count;
   }
   System.out.println("Number of digits"+count);
 	   
