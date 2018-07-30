@@ -9,7 +9,11 @@ class PrimeNumb
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int low=20,high=50,i,flag=0;
+		int low,high,i,flag=0;
+		//int low,high,i,flag=0;
+		Scanner sc=new Scanner(System.in);
+		low=sc.nextInt();
+		high=sc.nextInt();
 		while(low<high)
 		{
 			flag=0;
