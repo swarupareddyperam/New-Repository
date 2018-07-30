@@ -19,10 +19,10 @@ class Arry
 		{
 			n=sc.nextInt();
 		}
-		for(i=1;i<k;i++)
+		for(i=1;i<=k;i++)
 		{
 			sum=sum+i;
 		}
-		System.out.println("sum:"+sum);
+		System.out.println(sum);
 	}
 }
