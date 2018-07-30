@@ -23,7 +23,7 @@ class PrimeNumb
 			}
 			if(flag==0)
 			{
-				System.out.println("numbers are"+low);
+				System.out.println(" "+low);
 			}
 			++low;
 		}
