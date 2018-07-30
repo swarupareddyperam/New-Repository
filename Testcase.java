@@ -8,12 +8,14 @@ class Testcase
 	{
 		int n;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a value");
+		//System.out.println("Enter a value");
 		n=sc.nextInt();
 		if(n>0)
-		System.out.println("positive number");
-		else
-		System.out.println("Negative");
+		       System.out.println("Positive");
+		else if
+			System.out.println("Zero");
+		else 
+		        System.out.println("Negative");
 		
 	}
 }
