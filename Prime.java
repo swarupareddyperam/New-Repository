@@ -12,7 +12,7 @@ class Prime
 	{
 		int n,i,flag=0;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter n value ");
+		//System.out.println("enter n value ");
 		n=sc.nextInt();
 		for(i=2;i<n/2;++i)
 		{
