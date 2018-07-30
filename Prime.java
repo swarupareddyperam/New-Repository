@@ -24,8 +24,8 @@ class Prime
 			
 		}
 		if(flag==0)
-		System.out.println("prime");
+		System.out.println("yes");
 		else
-		System.out.println("not prime");
+		System.out.println("no");
 	}
 }
