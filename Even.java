@@ -12,11 +12,13 @@ class Even
 	{
 		int n;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number");
+		//System.out.println("Enter a number");
 		n=sc.nextInt();
 		if(n%2==0)
-		System.out.println("Even");
+		        System.out.println("Even");
+		else if(n<0)
+			System.out.println("invalid");
 		else
-		System.out.println("Odd");
+		        System.out.println("Odd");
 	}
 }
