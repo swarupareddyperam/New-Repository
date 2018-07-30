@@ -20,7 +20,7 @@ int a,b,c;
 		
 Scanner sc=new Scanner(System.in);
 		
-System.out.println("Enter a,b,c");
+//System.out.println("Enter a,b,c");
 		
 a=sc.nextInt();
 		
@@ -30,15 +30,15 @@ c=sc.nextInt();
 		
 if(a>b)
 		
-System.out.println("a is greater");
+      System.out.println(a);
 		
 else if(b>c)
 		
-System.out.println("b is greater");
+      System.out.println(b);
 		
 else
 		
-System.out.println("c is greater");
+      System.out.println(c);
 		
 		
 	
