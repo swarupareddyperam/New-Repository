@@ -11,9 +11,12 @@ class Power
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int e=2,b=7;
-		 int p=(int)Math.pow(b,e);
-		 System.out.println(p);
+		int e,b;
+		Scanner sc=new Scanner(System.in);
+		e=sc.nextInt();
+		b=sc.nextInt();
+		int p=(int)Math.pow(e,b);
+		System.out.println(p);
 		
 	}
 }
