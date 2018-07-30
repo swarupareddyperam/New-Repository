@@ -18,18 +18,19 @@ int n,sum=0;
 						
 Scanner sc=new Scanner(System.in);
                         
-System.out.println("Enter n value");
+//System.out.println("Enter n value");
                         
 n=sc.nextInt();
   
-for(int i=1;i<=n;++i)
-{
-sum=sum+i;
-}                      
-                       
-                      
-System.out.println("sum"+sum);
+//int num = 100, sum = 0;
 
+        for(int i = 1; i <= n; ++i)
+        {
+            // sum = sum + i;
+            sum += i;
+        }
+
+        System.out.println(sum);
 					
 }
 				
