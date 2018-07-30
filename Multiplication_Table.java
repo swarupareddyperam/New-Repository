@@ -9,10 +9,12 @@ class Multiplication_Table
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int n=19;
-		for(int i=1;i<5;i++)
+		int n;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		for(int i=1;i<=5;i++)
 		{
-			System.out.println(n+"*"+i+"="+19*i);
+			System.out.print(" "+n*i);
 		}
 	}
 }
