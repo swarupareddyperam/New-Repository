@@ -11,7 +11,7 @@ class Armstrong
 	{
 	int n,sum=0,temp,r;
 	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter n value");
+	//System.out.println("Enter n value");
 	n=sc.nextInt();
 	temp=n;
 	
