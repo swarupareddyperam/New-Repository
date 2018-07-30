@@ -13,7 +13,7 @@ class Palindrome
 		int n,r,temp,sum=0;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
-		System.out.println("Enter n value");
+		//System.out.println("Enter n value");
 		temp=n;
 	               while(n>0)
 		{
@@ -23,11 +23,11 @@ class Palindrome
 		}
 			if(temp==sum)
 			{
-			System.out.println("palindrome");
+			System.out.println("yes");
 	                       	}
 	  	           else
 	               	{
-			System.out.println(" not palindrome");
+			System.out.println("no");
 			
 	                    	}
 	}
