@@ -23,11 +23,11 @@ class Armstrong
 	}
 	if(temp==sum)
 	{
-		System.out.println("armstrong");
+		System.out.println("yes");
 	}
 	else
 	{
-			System.out.println(" not armstrong");
+			System.out.println(" no");
 		
 	}
 	
