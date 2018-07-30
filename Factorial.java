@@ -21,8 +21,11 @@ class Factorial
 	}
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int fact=1;
-		fact=factorial(5);
+		int fact=1,n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter");
+		n=sc.nextInt();	
+		fact=factorial(n);
 		System.out.println(fact);
 		
 		
