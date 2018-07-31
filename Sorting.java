@@ -37,9 +37,5 @@ class Sorting
 		{
 			System.out.print(a[i]+" ");
 		}
-		
-		
-		
-		
 	}
 }
