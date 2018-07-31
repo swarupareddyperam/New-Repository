@@ -27,8 +27,5 @@ class StringNum
             System.out.println("yes");
         else
             System.out.println("No");
-
-
-		
 	}
 }
