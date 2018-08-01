@@ -23,7 +23,7 @@ class Factorial
 	{
 		int fact=1,n;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter");
+		//System.out.println("enter");
 		n=sc.nextInt();	
 		fact=factorial(n);
 		System.out.println(fact);
