@@ -10,8 +10,8 @@ class Arraybig
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		//int a[];
+		
+	
 		int i,big,n;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
@@ -34,8 +34,4 @@ class Arraybig
 		}
 		System.out.println(big);
     }
-   }
-	
-		
-		
-	
+}
