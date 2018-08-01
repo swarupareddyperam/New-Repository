@@ -10,8 +10,8 @@ class Sorting
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		//int a[];
+		
+		
 		int i,j,temp,n;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
