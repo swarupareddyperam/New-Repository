@@ -19,7 +19,7 @@ class Odd
 			if(low%2!=0)
 			{
 				flag=0;
-				System.out.println(" "+low);
+				System.out.print(" "+low);
 				
 			}
 			++low;
