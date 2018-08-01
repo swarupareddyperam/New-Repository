@@ -1,6 +1,5 @@
 import java.util.Scanner;
  
-/** Class QuickSort **/
 class SortingQuick 
 {
     /** Quick Sort function **/
