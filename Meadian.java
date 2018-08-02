@@ -45,13 +45,5 @@ if (n%2 == 1)
 else
    medianValue = (a[middle-1] + a[middle]) / 2;
    System.out.println(medianValue);
-   
-   
-   
-
-		
-		
-		
-		
 	}
 }
