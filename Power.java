@@ -3,20 +3,33 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-import java.util.Scanner;
-import java.lang.Math;
-
-/* Name of the class has to be "Main" only if  class is public. */
 class Power
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int e,b;
+		// your code goes here
+		int flag=0,i;
 		Scanner sc=new Scanner(System.in);
-		e=sc.nextInt();
-		b=sc.nextInt();
-		int p=(int)Math.pow(e,b);
-		System.out.println(p);
-		
+		int n=sc.nextInt();
+	 while(n!=1)
+    {
+        if(n%2==0)
+        {
+        flag=1;
+        }
+        else
+        {
+            flag=0;
+        }
+        n=n/2;
+    }
+    if(flag==1)
+    {
+        System.out.println("yes");
+    }
+    else
+    {
+        System.out.println("no");
+    }
 	}
 }
